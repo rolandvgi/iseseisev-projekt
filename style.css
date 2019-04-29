@@ -4,19 +4,19 @@
   padding: 0px;
 }
 body {
-    background: rgb(18, 181, 231);
+  background:#3f4c6b; 
   }
   .container{
     overflow: hidden;
     text-align: center;
-    background: -moz-linear-gradient(top,  rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+    background: #606c88; 
+    background: -moz-linear-gradient(to right,  #3f4c6b 0%,#606c88 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   h1 {
     font-family: 'Inconsolata', normal;
-    color: rgba(255, 255, 255, 0.65);
+    color: #F2F2F0;
     font-size: 120px;
     margin: 20px 0px;
     font-weight: 100;
@@ -52,4 +52,5 @@ body {
     color: #1db8e8;
     border-radius: 50px;
   }
+  
 
