@@ -23,11 +23,11 @@ body {
   } 
   h3 {
     font-family: 'Inconsolata', normal;
-    color: rgba(255, 255, 255, 0.65);
-    display: inline-block;
-    font-size: 80px;
-    margin: 10px 0px;
-    font-weight: 5000;
+    color: #000000;
+    display: absolute;
+    font-size: 50px;
+    font-weight: 50;
+    margin: 20px 0px;
 }
   .title ul li {
     list-style: none;
