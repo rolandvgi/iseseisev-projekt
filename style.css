@@ -8,6 +8,7 @@ body {
   }
   .container{
     overflow: hidden;
+    margin: 3px;
     text-align: center;
     background: #606c88; 
     background: -moz-linear-gradient(to right,  #3f4c6b 0%,#606c88 100%); /* FF3.6-15 */
@@ -51,6 +52,12 @@ body {
     background: #fff;
     color: #1db8e8;
     border-radius: 50px;
+  }
+  .pildid{
+    margin-top:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
   }
   
 
