@@ -11,6 +11,13 @@
     <title>Astra</title>
 </head>
 <body>
+<div class="container">
+    <div class="title">
+      <ul>
+        <li><a class="title-astra/silva" href="index.html">Tagasi pealehele</a></li>
+      </ul>
+    </div>
+    </div>
     <div class = "pildid">
     <img class="ASpics" src="pildid/AstraSilva/Astra-Silva0.jpg" alt="astra ja silva 0 korrus" style="width:300px;height:300px;margin-left: 5px;">
     <img class="ASpics" src="pildid/AstraSilva/Astra-Silva1.jpg" alt="astra ja silva 0 korrus" style="width:300px;height:300px;margin-left: 5px;">
