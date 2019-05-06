@@ -45,6 +45,10 @@
     width: 90%;
     max-width: 900px;
 }
+.modal-content-wide {
+    max-width: 1300px;
+}
+
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 .caption {
