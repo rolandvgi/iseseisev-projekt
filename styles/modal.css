@@ -65,6 +65,7 @@
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
     animation-name: zoom;
+    height: 90%;
     animation-duration: 0.6s;
 }
 

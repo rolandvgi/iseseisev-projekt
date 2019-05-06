@@ -17,12 +17,12 @@
       </div>
       </div>
       <div class = "pildid">
-      <img class="ASpics" src="pildid/Mare/mare11.png" alt="mare esimene korrus" style="width:300px;height:300px;margin-left: 5px;">
-      <img class="ASpics" src="pildid/Mare/mare2.png" alt="mare teine korrus" style="width:300px;height:300px;margin-left: 5px;">
-      <img class="ASpics" src="pildid/Mare/mare3.png" alt="mare kolmas korrus" style="width:300px;height:300px;margin-left: 5px;">
-      <img class="ASpics" src="pildid/Mare/mare4.png" alt="mare neljas korrus" style="width:300px;height:300px;margin-left: 5px;">
-      <img class="ASpics" src="pildid/Mare/mare5.png" alt="mare viies korrus" style="width:300px;height:300px;margin-left: 5px;">
-      <img class="ASpics" src="pildid/Mare/mare6.png" alt="mare kuues korrus" style="width:300px;height:300px;margin-left: 5px;">
+      <img class="ASpics" src="pildid/Mare/mare11.jpg" alt="mare esimene korrus" style="width:300px;height:300px;margin-left: 5px;">
+      <img class="ASpics" src="pildid/Mare/mare2.jpg" alt="mare teine korrus" style="width:300px;height:300px;margin-left: 5px;">
+      <img class="ASpics" src="pildid/Mare/mare3.jpg" alt="mare kolmas korrus" style="width:300px;height:300px;margin-left: 5px;">
+      <img class="ASpics" src="pildid/Mare/mare4.jpg" alt="mare neljas korrus" style="width:300px;height:300px;margin-left: 5px;">
+      <img class="ASpics" src="pildid/Mare/mare5.jpg" alt="mare viies korrus" style="width:300px;height:300px;margin-left: 5px;">
+      <img class="ASpics" src="pildid/Mare/mare6.jpg" alt="mare kuues korrus" style="width:300px;height:300px;margin-left: 5px;">
       </div>
       <!-- The Modal -->
       <div id="myModal" class="modal">
