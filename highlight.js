@@ -38,4 +38,10 @@ jQuery(document).ready(function () {
   $('.title-nova').mouseover( function(){
     $("#map").attr('src', 'pildid/highlight/nova.png');
   });
+  $('.title-ursa').mouseout(function(){
+    $("#map").attr('src', 'pildid/main2.png');
+  }),
+  $('.title-ursa').mouseover( function(){
+    $("#map").attr('src', 'pildid/highlight/ursa.png');
+  });
 });
