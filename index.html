@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Map</title>
+  <title>TLÜ map</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <div class="container">
-  <h1>Tallinna Ülikool</h1>
+  <h1 id="myH1">Tallinna Ülikool</h1>
   <div class="title">
     <ul>
       <li><a class="title-astra-silva" href="astra.php">Astra/Silva</a></li>
@@ -24,4 +25,17 @@
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="highlight.js"></script>
+  <script src="tlumode.js"></script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    console.log("Will the service worker register?");
+    navigator.serviceWorker.register('service-worker.js')
+      .then(function(reg){
+        console.log("Yes, it did.");
+      }).catch(function(err) {
+        console.log("No it didn't. This happened: ", err)
+      });
+  }
+</script>
+
 </html>

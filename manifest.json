@@ -1,0 +1,15 @@
+{
+  "short_name": "TLÜ map",
+  "name": "TLÜ map",
+  "icons": [
+    {
+      "src":"pildid/tluicon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#000",
+  "Theme_color": "red",
+  "display": "standalone"
+}
