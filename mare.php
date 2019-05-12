@@ -38,5 +38,3 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="modal.js"></script>
   </html>
-
-// 3052 1556
