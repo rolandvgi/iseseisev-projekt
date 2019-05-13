@@ -1,10 +1,10 @@
 /*jshint esversion:6*/
-function precarica( img ) {
+function preload( img ) {
   $( img ).each( function () {
     $( '<img/>' )[ 0 ].src = this;
   });
 }
-precarica([
+preload([
     'pildid/highlight/marepink.png',
     'pildid/highlight/astra.png',
     'pildid/highlight/nova.png',
@@ -12,7 +12,6 @@ precarica([
   ]);
 
 jQuery(document).ready(function () {
-  console.log('tess2t');
   $('.title-astra-silva').mouseout(function(){
     $("#map").attr('src', 'pildid/main2.png');
   }),
@@ -23,7 +22,6 @@ jQuery(document).ready(function () {
     $("#map").attr('src', 'pildid/main2.png');
   }),
   $('.title-terra').mouseover( function(){
-    console.log('tesst');
     $("#map").attr('src', 'pildid/highlight/terra.png');
   });
   $('.title-mare').mouseout(function(){
