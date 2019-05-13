@@ -21,7 +21,6 @@ function openmodal() {
     captionText.innerHTML = this.alt;
   });
 
-  // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
 
   // When the user clicks on <span> (x), close the modal
@@ -29,5 +28,3 @@ function openmodal() {
     modal.style.display = "none";
   };
 //}
-
-
