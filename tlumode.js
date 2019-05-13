@@ -10,27 +10,21 @@ function init() {
   changeColorButton = document.querySelector("#tlucolors");
 
   changeColorButton.addEventListener("click", changeBackgroundColor);
+  
 }
 
 
 function changeBackgroundColor(){
   console.log("Muudan värvi");
 
-  document.getElementById("myH1").style.color = "#9e3838";
-  document.body.classList.add('light');
-  document.div.title.classList.add('light');
-  document.div.li.classList.add('light');
-  //document.getElementById("myLi").st.syle.color = "#9e3838";
-  /*if(darkTheme)
-
+  if(gangcolors == false){
+    document.getElementById("myH1").style.color = "#d31145";
+    document.body.classList.add('light');
+    gangcolors = true;
   } else {
-    //clockContainer.style.backgroundColor = "rgb("+255+","+255+","+255+")";
-    //document.body.style.backgroundColor = "rgb("+255+","+255+","+255+")";
-    clockContainer.style.color = "rgb("+0+","+0+","+0+")";
-    dayContainerElement.style.color = "rgb("+0+","+0+","+0+")";
-    //dayContainerElement.style.backgroundColor = "rgb("+255+","+255+","+255+")";
-    dateContainerElement.style.color = "rgb("+0+","+0+","+0+")";
-    flex.style.backgroundColor = "#F8F9F9";
-  }*/
-  //gangcolors = !gangcolors;
+    document.getElementById("myH1").style.color = "#fff";
+    document.body.classList.remove('light');
+    gangcolors = false;
+  }
+
 }

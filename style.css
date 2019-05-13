@@ -69,12 +69,24 @@ body {
 }
 
 .light .title ul li{
-  border-color:  #9e3838;
+  border-color:  #d31145;
 }
 
 .light li a{
-  color: #9e3838;
+  color: #d31145;
 }
+
+body.light{
+  background:#ffffff;
+}
+
+.light li a:hover{
+  background: #d31145;
+  color: #1db8e8;
+  border-radius: 50px;
+}
+
+
 
   /*----- Place the navbar at the bottom of the page, and make it stick---- */
   .navbar {
