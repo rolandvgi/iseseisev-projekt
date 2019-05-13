@@ -30,6 +30,11 @@
   <script src="highlight.js"></script>
   <script src="tlumode.js"></script>
   <script>
+  /*if(gangcolors == true){
+    document.getElementById("myH1").style.color = "#d31145";
+    document.body.classList.add('light');
+  } 
+*/
   if ('serviceWorker' in navigator) {
     console.log("Will the service worker register?");
     navigator.serviceWorker.register('service-worker.js')
