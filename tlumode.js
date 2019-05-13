@@ -2,6 +2,7 @@
 
 let gangcolors = false;
 
+
 window.onload = function(){
   init();
 };
@@ -9,22 +10,42 @@ window.onload = function(){
 function init() {
   changeColorButton = document.querySelector("#tlucolors");
 
-  changeColorButton.addEventListener("click", changeBackgroundColor);
-  
+  if(changeColorButton) {
+    changeColorButton.addEventListener("click", toggleBackgroundColor);
+  }
+  const localValue = localStorage.getItem('gangcolors');
+  if(localValue){
+    gangcolors = JSON.parse(localValue);
+    changeBackgroundColor();
+  }
+  console.log(gangcolors);
 }
 
-
-function changeBackgroundColor(){
+function toggleBackgroundColor() {
   console.log("Muudan värvi");
-
+  
   if(gangcolors == false){
-    document.getElementById("myH1").style.color = "#d31145";
-    document.body.classList.add('light');
     gangcolors = true;
   } else {
-    document.getElementById("myH1").style.color = "#fff";
-    document.body.classList.remove('light');
     gangcolors = false;
   }
-
+  changeBackgroundColor();
+  saveLocal();
 }
+
+function changeBackgroundColor(){
+    console.log("Muudan värvi");
+  
+    if(gangcolors == true){
+      //document.getElementById("myH1").style.color = "#d31145";
+      document.body.classList.add('light');
+    } else {
+      //document.getElementById("myH1").style.color = "#fff";
+      document.body.classList.remove('light');
+    }
+  }
+
+function saveLocal(){
+  localStorage.setItem('gangcolors',JSON.stringify(gangcolors));
+}
+
