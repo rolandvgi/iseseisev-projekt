@@ -17,7 +17,10 @@ function changeBackgroundColor(){
   console.log("Muudan värvi");
 
   document.getElementById("myH1").style.color = "#9e3838";
-  //document.getElementById("myLi").style.color = "#9e3838";
+  document.body.classList.add('light');
+  document.div.title.classList.add('light');
+  document.div.li.classList.add('light');
+  //document.getElementById("myLi").st.syle.color = "#9e3838";
   /*if(darkTheme)
 
   } else {

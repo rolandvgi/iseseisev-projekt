@@ -64,6 +64,18 @@ body {
   }
 
 
+.light .container {
+  background:white;
+}
+
+.light .title ul li{
+  border-color:  #9e3838;
+}
+
+.light li a{
+  color: #9e3838;
+}
+
   /*----- Place the navbar at the bottom of the page, and make it stick---- */
   .navbar {
     background-color: #333;
