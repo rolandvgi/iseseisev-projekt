@@ -86,7 +86,9 @@ body.light{
   border-radius: 50px;
 }
 
-
+.light h1{
+  color: #d31145;
+}
 
   /*----- Place the navbar at the bottom of the page, and make it stick---- */
   .navbar {

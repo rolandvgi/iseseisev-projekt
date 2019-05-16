@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="manifest" href="manifest.json">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>TLÜ map</title>
   <link rel="manifest" href="manifest.json">
@@ -24,17 +24,12 @@
   </div>
   <div class="navbar">
   <button id="tlucolors" type="button" name="tlumode">TLÜ Mode</button>
+  <button class="btnAdd">Add to Homescreen</button>
   </div>
-  </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="highlight.js"></script>
   <script src="tlumode.js"></script>
   <script>
-  /*if(gangcolors == true){
-    document.getElementById("myH1").style.color = "#d31145";
-    document.body.classList.add('light');
-  } 
-*/
   if ('serviceWorker' in navigator) {
     console.log("Will the service worker register?");
     navigator.serviceWorker.register('service-worker.js')
@@ -45,5 +40,5 @@
       });
   }
 </script>
-
+  </body>
 </html>
